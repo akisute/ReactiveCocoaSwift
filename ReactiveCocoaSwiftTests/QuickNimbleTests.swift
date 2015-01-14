@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 akisute. All rights reserved.
 //
 
-import Foundation
+import UIKit
 import Quick
 import Nimble
 
