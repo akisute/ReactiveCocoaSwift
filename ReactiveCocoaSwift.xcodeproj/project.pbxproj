@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A84416A77FC8F4297809796 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AFD26DBDB9C7E2F6865D32 /* libPods.a */; };
 		0E96D7FB1A591C0800BD23C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96D7FA1A591C0800BD23C2 /* AppDelegate.swift */; };
 		0E96D7FD1A591C0800BD23C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96D7FC1A591C0800BD23C2 /* ViewController.swift */; };
 		0E96D8001A591C0800BD23C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E96D7FE1A591C0800BD23C2 /* Main.storyboard */; };
@@ -15,6 +14,11 @@
 		0E96D8051A591C0800BD23C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E96D8031A591C0800BD23C2 /* LaunchScreen.xib */; };
 		0E96D8111A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96D8101A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift */; };
 		0E96D81B1A59210D00BD23C2 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E96D81A1A59210D00BD23C2 /* ReactiveCocoa.framework */; };
+		292D739EA553DE3753D9CB8E /* libPods-ReactiveCocoaSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B58680EB86AE161A7BA05120 /* libPods-ReactiveCocoaSwift.a */; };
+		C56EFAB41A66575B00631F7A /* QuickNimbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EFAB31A66575B00631F7A /* QuickNimbleTests.swift */; };
+		C56EFAB61A6657C900631F7A /* LlamaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56EFAB51A6657C900631F7A /* LlamaKit.framework */; };
+		C56EFABB1A66580000631F7A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56EFAB71A6657D100631F7A /* Quick.framework */; };
+		C56EFABC1A66580300631F7A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56EFAB91A6657D400631F7A /* Nimble.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +43,13 @@
 		0E96D80F1A591C0900BD23C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E96D8101A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCocoaSwiftTests.swift; sourceTree = "<group>"; };
 		0E96D81A1A59210D00BD23C2 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
-		6D8589BD28F3F1B9DE7A7E18 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		D1AFD26DBDB9C7E2F6865D32 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E69230BD43B8CD0DF143642C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		51EF3800ADC183DFF643BED0 /* Pods-ReactiveCocoaSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaSwift/Pods-ReactiveCocoaSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		707673AF1E5278FAEB75197C /* Pods-ReactiveCocoaSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaSwift/Pods-ReactiveCocoaSwift.release.xcconfig"; sourceTree = "<group>"; };
+		B58680EB86AE161A7BA05120 /* libPods-ReactiveCocoaSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoaSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C56EFAB31A66575B00631F7A /* QuickNimbleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickNimbleTests.swift; sourceTree = "<group>"; };
+		C56EFAB51A6657C900631F7A /* LlamaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LlamaKit.framework; path = Carthage/Build/iOS/LlamaKit.framework; sourceTree = "<group>"; };
+		C56EFAB71A6657D100631F7A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		C56EFAB91A6657D400631F7A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A84416A77FC8F4297809796 /* libPods.a in Frameworks */,
+				292D739EA553DE3753D9CB8E /* libPods-ReactiveCocoaSwift.a in Frameworks */,
+				C56EFAB61A6657C900631F7A /* LlamaKit.framework in Frameworks */,
 				0E96D81B1A59210D00BD23C2 /* ReactiveCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C56EFABB1A66580000631F7A /* Quick.framework in Frameworks */,
+				C56EFABC1A66580300631F7A /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				0E96D8101A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift */,
+				C56EFAB31A66575B00631F7A /* QuickNimbleTests.swift */,
 				0E96D80E1A591C0900BD23C2 /* Supporting Files */,
 			);
 			path = ReactiveCocoaSwiftTests;
@@ -125,8 +137,11 @@
 		2019DCCE964F516CA5544DB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C56EFAB91A6657D400631F7A /* Nimble.framework */,
+				C56EFAB71A6657D100631F7A /* Quick.framework */,
+				C56EFAB51A6657C900631F7A /* LlamaKit.framework */,
 				0E96D81A1A59210D00BD23C2 /* ReactiveCocoa.framework */,
-				D1AFD26DBDB9C7E2F6865D32 /* libPods.a */,
+				B58680EB86AE161A7BA05120 /* libPods-ReactiveCocoaSwift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,8 +149,8 @@
 		E32027F671EECD7F3A874392 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6D8589BD28F3F1B9DE7A7E18 /* Pods.debug.xcconfig */,
-				E69230BD43B8CD0DF143642C /* Pods.release.xcconfig */,
+				51EF3800ADC183DFF643BED0 /* Pods-ReactiveCocoaSwift.debug.xcconfig */,
+				707673AF1E5278FAEB75197C /* Pods-ReactiveCocoaSwift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -170,6 +185,7 @@
 				0E96D8061A591C0900BD23C2 /* Sources */,
 				0E96D8071A591C0900BD23C2 /* Frameworks */,
 				0E96D8081A591C0900BD23C2 /* Resources */,
+				C56EFAB21A6656CD00631F7A /* Carthage Workaround Script */,
 			);
 			buildRules = (
 			);
@@ -246,6 +262,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/LlamaKit.framework",
 			);
 			name = "Carthage Workaround Script";
 			outputPaths = (
@@ -266,7 +283,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaSwift/Pods-ReactiveCocoaSwift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6C329A1CBAEDD69BA00DDE7F /* Check Pods Manifest.lock */ = {
@@ -284,6 +301,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		C56EFAB21A6656CD00631F7A /* Carthage Workaround Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+			);
+			name = "Carthage Workaround Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -300,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C56EFAB41A66575B00631F7A /* QuickNimbleTests.swift in Sources */,
 				0E96D8111A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,7 +447,7 @@
 		};
 		0E96D8151A591C0900BD23C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D8589BD28F3F1B9DE7A7E18 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 51EF3800ADC183DFF643BED0 /* Pods-ReactiveCocoaSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -428,7 +462,7 @@
 		};
 		0E96D8161A591C0900BD23C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E69230BD43B8CD0DF143642C /* Pods.release.xcconfig */;
+			baseConfigurationReference = 707673AF1E5278FAEB75197C /* Pods-ReactiveCocoaSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -443,12 +477,12 @@
 		};
 		0E96D8181A591C0900BD23C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D8589BD28F3F1B9DE7A7E18 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -463,12 +497,12 @@
 		};
 		0E96D8191A591C0900BD23C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E69230BD43B8CD0DF143642C /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = ReactiveCocoaSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
