@@ -18,13 +18,11 @@ class ListViewController: UITableViewController {
         
         self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: nil, action: nil)
         self.navigationItem.rightBarButtonItem?.rac_command = RACCommand(signalBlock: { (sender: AnyObject!) -> RACSignal! in
-            NSLog("Add a new note")
             self.presentation.addNote()
             return RACSignal.empty()
         })
         
-        self.presentation.documentUpdatedSignal.subscribeNext { (value: AnyObject!) -> Void in
-            NSLog("value = \(value)")
+        self.presentation.documentUpdatedSignal.subscribeNext { (notesValue: AnyObject!) -> Void in
             self.tableView.reloadData()
         }
     }
