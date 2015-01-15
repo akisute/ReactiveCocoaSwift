@@ -25,7 +25,11 @@ public class ListViewControllerPresentation: NSObject {
     }
     
     public func noteForRowAtIndexPath(indexPath: NSIndexPath) -> Note {
-        return self.document.notes[indexPath.row]
+        let i = indexPath.row
+        if (i < 0 || i >= self.document.notes.count) {
+            NSException(name: NSRangeException, reason: "indexPath \(indexPath) is out of bounds (\(self.document.notes.count))", userInfo: nil).raise()
+        }
+        return self.document.notes[i]
     }
     
     public func addNote() {

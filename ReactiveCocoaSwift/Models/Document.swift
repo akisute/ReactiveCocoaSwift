@@ -9,5 +9,5 @@
 import Foundation
 
 public class Document: NSObject {
-    public var notes: [Note] = []
+    public dynamic var notes: [Note] = []
 }
