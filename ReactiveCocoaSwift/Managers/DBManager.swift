@@ -10,6 +10,7 @@ import Foundation
 
 public class DBManager {
     
+    public let isTemporaryDatabase: Bool
     public let database: CBLDatabase
     
     public class var sharedManager: DBManager {
@@ -19,8 +20,21 @@ public class DBManager {
         return Static.instance
     }
     
-    init() {
+    public init(useTemporaryDatabase: Bool = false) {
+        self.isTemporaryDatabase = useTemporaryDatabase
+        var databaseName: String
+        if self.isTemporaryDatabase {
+            databaseName = "temp-\(NSUUID().UUIDString.lowercaseString)"
+        } else {
+            databaseName = "reactive-cocoa-swift"
+        }
         let manager = CBLManager.sharedInstance()
-        self.database = manager.databaseNamed("ReactiveCocoaSwift", error: nil)
+        self.database = manager.databaseNamed(databaseName, error: nil)
+    }
+    
+    deinit {
+        if self.isTemporaryDatabase {
+            self.database.deleteDatabase(nil)
+        }
     }
 }

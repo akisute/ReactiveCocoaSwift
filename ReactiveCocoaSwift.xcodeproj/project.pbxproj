@@ -18,6 +18,7 @@
 		C5687E591A6CFF02008FF620 /* ListViewControllerPresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EFAD31A66725700631F7A /* ListViewControllerPresentationTests.swift */; };
 		C5687E5A1A6CFF02008FF620 /* ReactiveCocoaSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96D8101A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift */; };
 		C5687E5B1A6CFF02008FF620 /* QuickNimbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EFAB31A66575B00631F7A /* QuickNimbleTests.swift */; };
+		C5687E5E1A6D054A008FF620 /* DBManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5687E5D1A6D054A008FF620 /* DBManagerTests.swift */; };
 		C56EFAB61A6657C900631F7A /* LlamaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56EFAB51A6657C900631F7A /* LlamaKit.framework */; };
 		C56EFABB1A66580000631F7A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56EFAB71A6657D100631F7A /* Quick.framework */; };
 		C56EFABC1A66580300631F7A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56EFAB91A6657D400631F7A /* Nimble.framework */; };
@@ -56,6 +57,7 @@
 		B58680EB86AE161A7BA05120 /* libPods-ReactiveCocoaSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoaSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5589CC51A6CF3B000CC9456 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		C5589CC71A6CF81400CC9456 /* Objc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc-Bridging-Header.h"; sourceTree = "<group>"; };
+		C5687E5D1A6D054A008FF620 /* DBManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManagerTests.swift; sourceTree = "<group>"; };
 		C56EFAB31A66575B00631F7A /* QuickNimbleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickNimbleTests.swift; sourceTree = "<group>"; };
 		C56EFAB51A6657C900631F7A /* LlamaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LlamaKit.framework; path = Carthage/Build/iOS/LlamaKit.framework; sourceTree = "<group>"; };
 		C56EFAB71A6657D100631F7A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		0E96D80D1A591C0900BD23C2 /* ReactiveCocoaSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				C5687E5C1A6D053E008FF620 /* Managers */,
 				C56EFAD11A66724D00631F7A /* Models */,
 				C56EFAD21A66724D00631F7A /* Views */,
 				0E96D8101A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift */,
@@ -172,6 +175,14 @@
 			isa = PBXGroup;
 			children = (
 				C5589CC51A6CF3B000CC9456 /* DBManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C5687E5C1A6D053E008FF620 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C5687E5D1A6D054A008FF620 /* DBManagerTests.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -405,6 +416,7 @@
 				C5687E5B1A6CFF02008FF620 /* QuickNimbleTests.swift in Sources */,
 				C5687E5A1A6CFF02008FF620 /* ReactiveCocoaSwiftTests.swift in Sources */,
 				C5687E591A6CFF02008FF620 /* ListViewControllerPresentationTests.swift in Sources */,
+				C5687E5E1A6D054A008FF620 /* DBManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
