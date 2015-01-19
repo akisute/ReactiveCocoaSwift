@@ -11,10 +11,13 @@
 		0E96D8001A591C0800BD23C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E96D7FE1A591C0800BD23C2 /* Main.storyboard */; };
 		0E96D8021A591C0800BD23C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E96D8011A591C0800BD23C2 /* Images.xcassets */; };
 		0E96D8051A591C0800BD23C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E96D8031A591C0800BD23C2 /* LaunchScreen.xib */; };
-		0E96D8111A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96D8101A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift */; };
 		0E96D81B1A59210D00BD23C2 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E96D81A1A59210D00BD23C2 /* ReactiveCocoa.framework */; };
 		292D739EA553DE3753D9CB8E /* libPods-ReactiveCocoaSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B58680EB86AE161A7BA05120 /* libPods-ReactiveCocoaSwift.a */; };
-		C56EFAB41A66575B00631F7A /* QuickNimbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EFAB31A66575B00631F7A /* QuickNimbleTests.swift */; };
+		A11A869B4FF1BD7BF05BA04A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E635891D4E9159C0E79261F /* libPods.a */; };
+		C5589CC61A6CF3B000CC9456 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5589CC51A6CF3B000CC9456 /* DBManager.swift */; };
+		C5687E591A6CFF02008FF620 /* ListViewControllerPresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EFAD31A66725700631F7A /* ListViewControllerPresentationTests.swift */; };
+		C5687E5A1A6CFF02008FF620 /* ReactiveCocoaSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96D8101A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift */; };
+		C5687E5B1A6CFF02008FF620 /* QuickNimbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EFAB31A66575B00631F7A /* QuickNimbleTests.swift */; };
 		C56EFAB61A6657C900631F7A /* LlamaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56EFAB51A6657C900631F7A /* LlamaKit.framework */; };
 		C56EFABB1A66580000631F7A /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56EFAB71A6657D100631F7A /* Quick.framework */; };
 		C56EFABC1A66580300631F7A /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56EFAB91A6657D400631F7A /* Nimble.framework */; };
@@ -22,7 +25,6 @@
 		C56EFAC21A665D6600631F7A /* ListViewControllerPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EFAC11A665D6600631F7A /* ListViewControllerPresentation.swift */; };
 		C56EFAC41A665DC500631F7A /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EFAC31A665DC500631F7A /* Document.swift */; };
 		C56EFAC61A665DCB00631F7A /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EFAC51A665DCB00631F7A /* Note.swift */; };
-		C56EFAD41A66725700631F7A /* ListViewControllerPresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EFAD31A66725700631F7A /* ListViewControllerPresentationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0685B7807A7753D14254BA39 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		0E96D7F51A591C0800BD23C2 /* ReactiveCocoaSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E96D7F91A591C0800BD23C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E96D7FA1A591C0800BD23C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,8 +50,12 @@
 		0E96D8101A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCocoaSwiftTests.swift; sourceTree = "<group>"; };
 		0E96D81A1A59210D00BD23C2 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		51EF3800ADC183DFF643BED0 /* Pods-ReactiveCocoaSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaSwift/Pods-ReactiveCocoaSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		6956A7B452CFF9666D321F80 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		707673AF1E5278FAEB75197C /* Pods-ReactiveCocoaSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaSwift/Pods-ReactiveCocoaSwift.release.xcconfig"; sourceTree = "<group>"; };
+		8E635891D4E9159C0E79261F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58680EB86AE161A7BA05120 /* libPods-ReactiveCocoaSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoaSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5589CC51A6CF3B000CC9456 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		C5589CC71A6CF81400CC9456 /* Objc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc-Bridging-Header.h"; sourceTree = "<group>"; };
 		C56EFAB31A66575B00631F7A /* QuickNimbleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickNimbleTests.swift; sourceTree = "<group>"; };
 		C56EFAB51A6657C900631F7A /* LlamaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LlamaKit.framework; path = Carthage/Build/iOS/LlamaKit.framework; sourceTree = "<group>"; };
 		C56EFAB71A6657D100631F7A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
@@ -68,6 +75,7 @@
 				292D739EA553DE3753D9CB8E /* libPods-ReactiveCocoaSwift.a in Frameworks */,
 				C56EFAB61A6657C900631F7A /* LlamaKit.framework in Frameworks */,
 				0E96D81B1A59210D00BD23C2 /* ReactiveCocoa.framework in Frameworks */,
+				A11A869B4FF1BD7BF05BA04A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +114,7 @@
 		0E96D7F71A591C0800BD23C2 /* ReactiveCocoaSwift */ = {
 			isa = PBXGroup;
 			children = (
+				C5589CC41A6CF37F00CC9456 /* Managers */,
 				C56EFABD1A665D1300631F7A /* Models */,
 				C56EFABE1A665D1300631F7A /* Views */,
 				0E96D7FA1A591C0800BD23C2 /* AppDelegate.swift */,
@@ -121,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				0E96D7F91A591C0800BD23C2 /* Info.plist */,
+				C5589CC71A6CF81400CC9456 /* Objc-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,8 +163,17 @@
 				C56EFAB51A6657C900631F7A /* LlamaKit.framework */,
 				0E96D81A1A59210D00BD23C2 /* ReactiveCocoa.framework */,
 				B58680EB86AE161A7BA05120 /* libPods-ReactiveCocoaSwift.a */,
+				8E635891D4E9159C0E79261F /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5589CC41A6CF37F00CC9456 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C5589CC51A6CF3B000CC9456 /* DBManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		C56EFABD1A665D1300631F7A /* Models */ = {
@@ -195,6 +214,8 @@
 			children = (
 				51EF3800ADC183DFF643BED0 /* Pods-ReactiveCocoaSwift.debug.xcconfig */,
 				707673AF1E5278FAEB75197C /* Pods-ReactiveCocoaSwift.release.xcconfig */,
+				0685B7807A7753D14254BA39 /* Pods.debug.xcconfig */,
+				6956A7B452CFF9666D321F80 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -327,7 +348,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaSwift/Pods-ReactiveCocoaSwift-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6C329A1CBAEDD69BA00DDE7F /* Check Pods Manifest.lock */ = {
@@ -369,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C56EFAC61A665DCB00631F7A /* Note.swift in Sources */,
+				C5589CC61A6CF3B000CC9456 /* DBManager.swift in Sources */,
 				C56EFAC41A665DC500631F7A /* Document.swift in Sources */,
 				C56EFAC01A665D5B00631F7A /* ListViewController.swift in Sources */,
 				C56EFAC21A665D6600631F7A /* ListViewControllerPresentation.swift in Sources */,
@@ -380,9 +402,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C56EFAB41A66575B00631F7A /* QuickNimbleTests.swift in Sources */,
-				0E96D8111A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift in Sources */,
-				C56EFAD41A66725700631F7A /* ListViewControllerPresentationTests.swift in Sources */,
+				C5687E5B1A6CFF02008FF620 /* QuickNimbleTests.swift in Sources */,
+				C5687E5A1A6CFF02008FF620 /* ReactiveCocoaSwiftTests.swift in Sources */,
+				C5687E591A6CFF02008FF620 /* ListViewControllerPresentationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +517,7 @@
 		};
 		0E96D8151A591C0900BD23C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51EF3800ADC183DFF643BED0 /* Pods-ReactiveCocoaSwift.debug.xcconfig */;
+			baseConfigurationReference = 0685B7807A7753D14254BA39 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -505,12 +527,13 @@
 				INFOPLIST_FILE = ReactiveCocoaSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactiveCocoaSwift/Objc-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		0E96D8161A591C0900BD23C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 707673AF1E5278FAEB75197C /* Pods-ReactiveCocoaSwift.release.xcconfig */;
+			baseConfigurationReference = 6956A7B452CFF9666D321F80 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -520,11 +543,13 @@
 				INFOPLIST_FILE = ReactiveCocoaSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactiveCocoaSwift/Objc-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		0E96D8181A591C0900BD23C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0685B7807A7753D14254BA39 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -539,12 +564,14 @@
 				INFOPLIST_FILE = ReactiveCocoaSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactiveCocoaSwift/Objc-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveCocoaSwift.app/ReactiveCocoaSwift";
 			};
 			name = Debug;
 		};
 		0E96D8191A591C0900BD23C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6956A7B452CFF9666D321F80 /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -555,6 +582,7 @@
 				INFOPLIST_FILE = ReactiveCocoaSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ReactiveCocoaSwift/Objc-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveCocoaSwift.app/ReactiveCocoaSwift";
 			};
 			name = Release;
