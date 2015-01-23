@@ -8,6 +8,6 @@
 
 import Foundation
 
-public class Document: NSObject {
+public class Document: BaseModel {
     public dynamic var notes: [Note] = []
 }

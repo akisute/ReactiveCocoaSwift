@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Note: NSObject {
+public class Note: BaseModel {
     public var text: NSString?
     public var createdAt: NSDate = NSDate()
     
@@ -21,4 +21,11 @@ public class Note: NSObject {
     public var timestamp: NSString {
         return self.timestampDateFormatter.stringFromDate(self.createdAt)
     }
+    
+    // MARK: Mantle
+    
+    public class func createdAtJSONTransformer() -> NSValueTransformer {
+        return self.NSDateTransformer()
+    }
+    
 }
