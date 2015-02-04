@@ -49,6 +49,12 @@ class NoteTests: QuickSpec {
                         "text": "Hello, World!",
                         "createdAt": "2015-01-01T00:00:00Z"
                     ]
+                    // TODO: causes error "Invalid parameter not satisfying: [modelClass isSubclassOfClass:MTLModel.class]"
+                    //       because of how cocoapods sets up Mantle
+                    //       - in cocoapods 0.35.0, pods must not be separated between apps and test cases
+                    //       - in Mantle, Mantle pod must only be included in apps target
+                    //         doing so causes Mantle classes duplicated both in apps and test cases thus modelOfClass doesn't work anymore
+                    //       there's no fix for this right now
                     let note = MTLJSONAdapter.modelOfClass(Note.self, fromJSONDictionary: json, error: nil) as Note?
                     expect(note).toNot(beNil())
                     let n = note!
