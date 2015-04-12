@@ -5,10 +5,4 @@ A sample app to use the latest ReactiveCocoa (3.0) in Swift. Key features are:
 * Integrate ReactiveCocoa with Mantle for model layer while using couchbase-lite for persistant
 
 ## Requirements
-This project uses following build systems:
-
-- Cocoapods
-  - For traditional Objective-C libraries
-- Carthage
-  - For Swift dynamic frameworks
-
+This project uses *CocoaPods* to install dependent libraries. Make sure to `pod install` before building the sample app.
