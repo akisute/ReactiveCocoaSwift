@@ -13,7 +13,6 @@
 		0E96D8051A591C0800BD23C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E96D8031A591C0800BD23C2 /* LaunchScreen.xib */; };
 		0E96D81B1A59210D00BD23C2 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E96D81A1A59210D00BD23C2 /* ReactiveCocoa.framework */; };
 		292D739EA553DE3753D9CB8E /* libPods-ReactiveCocoaSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B58680EB86AE161A7BA05120 /* libPods-ReactiveCocoaSwift.a */; };
-		A11A869B4FF1BD7BF05BA04A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E635891D4E9159C0E79261F /* libPods.a */; };
 		C5589CC61A6CF3B000CC9456 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5589CC51A6CF3B000CC9456 /* DBManager.swift */; };
 		C5687E591A6CFF02008FF620 /* ListViewControllerPresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EFAD31A66725700631F7A /* ListViewControllerPresentationTests.swift */; };
 		C5687E5A1A6CFF02008FF620 /* ReactiveCocoaSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E96D8101A591C0900BD23C2 /* ReactiveCocoaSwiftTests.swift */; };
@@ -29,6 +28,7 @@
 		C5894EE91A7235C500CE910E /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5894EE81A7235C500CE910E /* BaseModel.swift */; };
 		C5894EEB1A72444F00CE910E /* BaseModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5894EEA1A72444F00CE910E /* BaseModelTests.swift */; };
 		C5894EED1A7246AA00CE910E /* NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5894EEC1A7246AA00CE910E /* NoteTests.swift */; };
+		FA19630C100C6DDD9ACCA96D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE26EF89C68309DC55EB724 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,6 @@
 		51EF3800ADC183DFF643BED0 /* Pods-ReactiveCocoaSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaSwift/Pods-ReactiveCocoaSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		6956A7B452CFF9666D321F80 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		707673AF1E5278FAEB75197C /* Pods-ReactiveCocoaSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaSwift/Pods-ReactiveCocoaSwift.release.xcconfig"; sourceTree = "<group>"; };
-		8E635891D4E9159C0E79261F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B58680EB86AE161A7BA05120 /* libPods-ReactiveCocoaSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoaSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5589CC51A6CF3B000CC9456 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		C5589CC71A6CF81400CC9456 /* Objc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -73,6 +72,7 @@
 		C5894EE81A7235C500CE910E /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		C5894EEA1A72444F00CE910E /* BaseModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModelTests.swift; sourceTree = "<group>"; };
 		C5894EEC1A7246AA00CE910E /* NoteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTests.swift; sourceTree = "<group>"; };
+		FCE26EF89C68309DC55EB724 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 				292D739EA553DE3753D9CB8E /* libPods-ReactiveCocoaSwift.a in Frameworks */,
 				C56EFAB61A6657C900631F7A /* LlamaKit.framework in Frameworks */,
 				0E96D81B1A59210D00BD23C2 /* ReactiveCocoa.framework in Frameworks */,
-				A11A869B4FF1BD7BF05BA04A /* libPods.a in Frameworks */,
+				FA19630C100C6DDD9ACCA96D /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +172,7 @@
 				C56EFAB51A6657C900631F7A /* LlamaKit.framework */,
 				0E96D81A1A59210D00BD23C2 /* ReactiveCocoa.framework */,
 				B58680EB86AE161A7BA05120 /* libPods-ReactiveCocoaSwift.a */,
-				8E635891D4E9159C0E79261F /* libPods.a */,
+				FCE26EF89C68309DC55EB724 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -253,6 +253,7 @@
 				0E96D7F31A591C0800BD23C2 /* Resources */,
 				2311B950A3992E293B6EC096 /* Copy Pods Resources */,
 				0E96D81E1A5923BB00BD23C2 /* Carthage Workaround Script */,
+				DDB86FB1E4526E3CE5E09501 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -401,6 +402,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		DDB86FB1E4526E3CE5E09501 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
